@@ -5,6 +5,7 @@
 - [Requirements](#requirements)
 - [Options](#options)
 - [Adding Minecraft Operators](#adding-minecraft-operators)
+- [Source](#source)
 
 <!-- /MarkdownTOC -->
 
@@ -33,4 +34,8 @@ These environment variables can be set at run time to override their defaults.
 Set the enviroment variable `OPS` with a comma separated list of players.
 
 example:
-`OPS="OpPlayer1,OpPlayer2"
+`OPS="OpPlayer1,OpPlayer2"`
+
+## Source
+Github: https://github.com/Goobaroo/docker-SkyFactoryOne
+Docker: https://hub.docker.com/repository/docker/goobaroo/skyfactoryone
