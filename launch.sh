@@ -4,9 +4,9 @@ set -x
 
 cd /data
 
-if ! [[ -f SkyFactory_One_Server_1_0_1.zip ]]; then
+if ! [[ -f SkyFactory_One_Server_1_0_2.zip ]]; then
 	rm -fr config defaultconfigs global_data_packs global_resource_packs mods packmenu
-	curl -o SkyFactory_One_Server_1_0_1.zip https://media.forgecdn.net/files/3495/89/SkyFactory_One_Server_1_0_1.zip && unzip -u SkyFactory_One_Server_1_0_1.zip -d /data
+	curl -o SkyFactory_One_Server_1_0_2.zip https://media.forgecdn.net/files/3505/144/SkyFactory_One_Server_1_0_2.zip && unzip -u SkyFactory_One_Server_1_0_2.zip -d /data
 	echo "eula=true" > eula.txt
 	chmod +x Install.sh
 	./Install.sh
