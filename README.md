@@ -20,6 +20,7 @@ After the first run it will simply start the server.
 ## Requirements
 
 * /data mounted to a persistent disk
+* Make sure that the EULA  is set to `true`
 
 ## Options
 
