@@ -2,7 +2,7 @@
 
 FROM openjdk:11-jdk-buster
 
-LABEL version="1.0.3"
+LABEL version="1.0.4"
 
 RUN apt-get update && apt-get install -y curl unzip && \
  addgroup minecraft && \
@@ -20,6 +20,6 @@ EXPOSE 25565/tcp
 
 CMD ["/launch.sh"]
 
-ENV MOTD "SkyFactory One v1.0.3 Server Powered by Docker"
+ENV MOTD "SkyFactory One v1.0.4 Server Powered by Docker"
 ENV LEVEL world
 ENV JVM_OPTS "-Xms2048m -Xmx2048m"

@@ -11,9 +11,9 @@ else
 	exit 9
 fi
 
-if ! [[ -f SkyFactory_One_Server_1_0_3.zip ]]; then
-	rm -fr config defaultconfigs global_data_packs global_resource_packs mods packmenu
-	curl -o SkyFactory_One_Server_1_0_3.zip https://media.forgecdn.net/files/3543/511/SkyFactory_One_Server_1_0_3.zip && unzip -u SkyFactory_One_Server_1_0_3.zip -d /data
+if ! [[ -f SkyFactory_One_Server_1_0_4.zip ]]; then
+	rm -fr config defaultconfigs global_data_packs global_resource_packs mods packmenu SkyFactory_One_Server_*.zip
+	curl -o SkyFactory_One_Server_1_0_4.zip https://media.forgecdn.net/files/3559/55/SkyFactory_One_Server_1_0_4.zip && unzip -u -o SkyFactory_One_Server_1_0_4.zip -d /data
 	chmod +x Install.sh
 	./Install.sh
 fi
